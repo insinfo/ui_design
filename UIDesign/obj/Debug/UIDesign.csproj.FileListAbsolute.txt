@@ -1,0 +1,14 @@
+C:\MyProjectsCSharp\UIDesign\UIDesign\bin\Debug\UIDesign.exe.config
+C:\MyProjectsCSharp\UIDesign\UIDesign\bin\Debug\UIDesign.exe
+C:\MyProjectsCSharp\UIDesign\UIDesign\bin\Debug\UIDesign.pdb
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.csprojResolveAssemblyReference.cache
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\MainWindow.g.cs
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\App.g.cs
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign_MarkupCompile.cache
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign_MarkupCompile.lref
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\MainWindow.baml
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.g.resources
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.Properties.Resources.resources
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.csproj.GenerateResource.Cache
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.exe
+C:\MyProjectsCSharp\UIDesign\UIDesign\obj\Debug\UIDesign.pdb

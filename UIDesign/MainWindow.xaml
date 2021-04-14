@@ -1,0 +1,63 @@
+﻿<Window x:Class="UIDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIDesign"      
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded" Closed="Window_Closed"
+        MinWidth="800"
+        MinHeight="600" 
+        
+        >
+
+
+
+    <Grid x:Name="grid" Background="#FF7E7E7E">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <local:ViewPort x:Name="viewPort" Margin="45,79,17,26"  Background="#FFEAEAEA" MouseLeftButtonDown="ViewPort_MouseLeftButtonDown" MouseLeftButtonUp="ViewPort_MouseLeftButtonUp" MouseMove="ViewPort_MouseMove"   />
+        <StackPanel Margin="0,79,0,26" Background="#FF6E6E6E" HorizontalAlignment="Left" Width="45" Orientation="Vertical">
+            <Button x:Name="btnSelect" Content="&#xE01B;" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnSelect_Click"/>
+            <Button x:Name="btnZoom" Content="&#xE01A;" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+
+            <Button x:Name="btnAddRectangle" Content=")" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnAddRectangle_Click"/>
+            <Button Content="*" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button x:Name="btnAddEllipse" Content="5" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnAddEllipse_Click"/>
+            <Button Content="&#xE004;" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="&#xE012;" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="p" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="#" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="u" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="e" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+            <Button Content="z" Height="37" FontFamily="design-soft-icons" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+
+        </StackPanel>
+        <StackPanel Margin="0,34,0,0" Background="#FF878686" Orientation="Horizontal" Height="45" VerticalAlignment="Top">
+            <Label Content="X" Foreground="White" Margin="10,13,3,0" BorderThickness="0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbElementPositionX" TextWrapping="Wrap" Width="45" Margin="0,10" BorderBrush="#FF838383" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Text="0" Foreground="White" Background="#FF747474" KeyDown="tbElementPositionX_KeyDown"/>
+            <Label Content="Y" Foreground="White" Margin="5,13,3,0" BorderThickness="0" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbElementPositionY" TextWrapping="Wrap" Width="45" Margin="0,10" BorderBrush="#FF838383" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Text="0" Background="#FF747474" Foreground="White" KeyDown="tbElementPositionY_KeyDown"/>
+            <Label Content="&#xE027;" Foreground="White" Margin="10,12,3,0" FontSize="15" BorderThickness="0" Padding="0" FontFamily="design-soft-icons" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbElementWidth" TextWrapping="Wrap" Width="45" Margin="0,10,0,8" BorderBrush="#FF838383" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Text="0" Background="#FF747474" Foreground="White" KeyDown="tbElementWidth_KeyDown"/>
+            <Label Content="&#xE026;" Foreground="White" Margin="5,12,3,0" FontSize="15" BorderThickness="0" Padding="0" FontFamily="design-soft-icons" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbElementHight" TextWrapping="Wrap" Width="45" Margin="0,10,0,8" BorderBrush="#FF838383" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Text="0" Background="#FF747474" Foreground="White" KeyUp="tbElementHight_KeyUp"/>
+            <Label Content="&#xE01A;" Foreground="White" Margin="10,12,3,0" FontSize="15" BorderThickness="0" Padding="0" FontFamily="design-soft-icons" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <ComboBox x:Name="cbCanvasZoom" Width="70" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,9,0,0"/>
+            <Label Content="&#xE017;" Foreground="White" Margin="5,12,3,0" FontSize="15" BorderThickness="0" Padding="0" FontFamily="design-soft-icons" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbElementRotation" TextWrapping="Wrap" Width="45" Margin="0,10,0,0" BorderBrush="#FF838383" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Text="0" Background="#FF747474" Foreground="White" KeyDown="tbElementRotation_KeyDown"/>
+        </StackPanel>
+        <Menu Height="24" VerticalAlignment="Top" VerticalContentAlignment="Top" Foreground="White" Background="#FF7E7E7E" Margin="0,10,0,0">
+            <MenuItem Header="Arquivo">
+                <MenuItem Header="Abrir"/>
+            </MenuItem>
+            <MenuItem Header="Editar"/>
+        </Menu>
+
+
+    </Grid>
+</Window>

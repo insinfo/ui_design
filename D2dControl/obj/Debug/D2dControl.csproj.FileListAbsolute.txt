@@ -1,0 +1,16 @@
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\D2dControl.dll.config
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\D2dControl.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\D2dControl.pdb
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct2D1.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct3D11.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct3D9.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.DXGI.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.xml
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct2D1.xml
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct3D11.xml
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.Direct3D9.xml
+C:\MyProjectsCSharp\UIDesign\D2dControl\bin\Debug\SharpDX.DXGI.xml
+C:\MyProjectsCSharp\UIDesign\D2dControl\obj\Debug\D2dControl.csprojResolveAssemblyReference.cache
+C:\MyProjectsCSharp\UIDesign\D2dControl\obj\Debug\D2dControl.dll
+C:\MyProjectsCSharp\UIDesign\D2dControl\obj\Debug\D2dControl.pdb
